@@ -9,6 +9,14 @@
 </head>
 
 <body>
+    <header>
+        <ul>
+            <li>
+                <a href="{{ route('about') }}">About</a>
+                <a href="{{ route('story') }}">Story</a>
+            </li>
+        </ul>
+    </header>
     <h1>Benvenuti alla pagina di {{$nome}} {{$cognome}} </h1>
 </body>
 

@@ -22,3 +22,11 @@ Route::get('/', function () {
 
     return view('home', $user);
 });
+
+Route::get('/about.php', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/story.php', function () {
+    return view('story');
+})->name('story');
